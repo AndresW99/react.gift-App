@@ -9,7 +9,11 @@ const GifExpertApp = ( { titulo } ) => {
 
     return (
         <>
-            <h2> { titulo }</h2> 
+            <h2 className="Gifs">Gifs frinder App with:</h2>
+            <h2 className="titulo"> { titulo }</h2> 
+            <h3 className="Sub">Developed and designed by: Andres Wellmann.</h3>
+
+            <hr />
            
             <AddCategory setCategories={ setCategories }/>
            

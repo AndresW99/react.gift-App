@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.render(
   
-    <GifExpertApp titulo = 'GifExpertApp' />,
+    <GifExpertApp titulo = 'React' />,
   document.getElementById('root')
 );
 
