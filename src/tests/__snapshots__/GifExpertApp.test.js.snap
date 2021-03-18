@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el GifExpertApp Tomar un snapshot del codigo. 1`] = `
+<Fragment>
+  <h2
+    className="Gifs"
+  >
+    Gifs frinder App with:
+  </h2>
+  <h2
+    className="titulo"
+  >
+     
+  </h2>
+  <h3
+    className="Sub"
+  >
+    Developed and designed by: Andres Wellmann.
+  </h3>
+  <hr />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Overwatch"
+      key="Overwatch"
+    />
+  </ol>
+</Fragment>
+`;

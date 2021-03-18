@@ -5,11 +5,11 @@ import { GifGrid } from './components/GifGrid';
 
 const GifExpertApp = ( { titulo } ) => {
 
-    const [categories, setCategories] = useState(['Overwatch']);
+    const [categories, setCategories] = useState(['']);
 
     return (
         <>
-            <h2 className="Gifs">Gifs frinder App with:</h2>
+            <h2 className="Gifs">Gifs finder App with:</h2>
             <h2 className="titulo"> { titulo }</h2> 
             <h3 className="Sub">Developed and designed by: Andres Wellmann.</h3>
 
